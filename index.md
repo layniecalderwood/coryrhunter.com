@@ -4,4 +4,4 @@ author: laynie
 ---
 ## Merry Christmas, Cory!
 
-[Link text](https://google.com)
+[Look I linked something](https://google.com)
