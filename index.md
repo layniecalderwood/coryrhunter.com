@@ -6,6 +6,7 @@ author: laynie
 
 [Look I linked something!](https://google.com)
 
-__words__
+__This is me laughing at how hard it was to build this website__
+
 
 ![Teeheehee](/img/laynie.jpeg)
