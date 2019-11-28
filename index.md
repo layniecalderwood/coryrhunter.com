@@ -1,6 +1,7 @@
 ---
 title: You cute
+author: laynie
 ---
 ## Merry Christmas, Cory!
----
-```I am some code```
+
+[Link text](https://google.com)
