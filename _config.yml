@@ -1,1 +1,1 @@
-theme: git clone https://github.com/jamigibbs/phantom.git your-dir-name && cd your-dir-name
+theme: jekyll-theme-time-machine
