@@ -7,9 +7,9 @@ author: laynie
 [Look I linked something!](https://www.youtube.com/watch?v=yXQViqx6GMY)
 
 
-I wanted to get you something practical and geeky, so here you go. I hope this domain name and template website come in handy. I think you are cute. Merry Christmas! 
+I wanted to get you something practical and geeky, so here you go. I hope this domain name and template website come in handy one day to build a professional website. Merry Christmas, cute boy!
 
-![Teeheehee](/img/laynie.jpeg)
+![Teeheehee](/img/Gift pic)
 
 
-__(This is me laughing at how hard it was to build this website)__
+__(Honestly, it was harder to build this website than going down that mega powder, tree-line run lol)__
