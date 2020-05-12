@@ -1,2 +1,1 @@
-# coryrhunter.com
-# coryrhunter.com
+#Cory Hunter
