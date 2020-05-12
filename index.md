@@ -30,8 +30,8 @@ If you’re a small bank, credit union, or other type of financial institution, 
 
 #### **Unfortunately, people aren’t getting onboard as fast as TCH thought.**
 
-[An article on smartpayments.com] (https://smartpayments.com/risk-fraud/survey-reveals-integration-is-the-biggest-barrier-to-innovation-in-payments-and-banking/?utm_source=SmartPayments+Subscription&utm_campaign=14cff7249a-Welcome+email&utm_medium=email&utm_term=0_1a84d58990-14cff7249a-139502070) tells us that a survey from the Association of Financial Professionals says 54% of financial institutions that responded to the survey feel unprepared for the widespread adoption of Real-Time Payments.
+[An article on smartpayments.com](https://smartpayments.com/risk-fraud/survey-reveals-integration-is-the-biggest-barrier-to-innovation-in-payments-and-banking/?utm_source=SmartPayments+Subscription&utm_campaign=14cff7249a-Welcome+email&utm_medium=email&utm_term=0_1a84d58990-14cff7249a-139502070) tells us that a survey from the Association of Financial Professionals says 54% of financial institutions that responded to the survey feel unprepared for the widespread adoption of Real-Time Payments.
 
 That’s where we come in. Here at Evident Systems, we have assessed all of the major barriers of integrating into the RTP® network and simplified it just for you. We know all the ins and outs of the RTP® network and we’re here to help you move into the future. Check out this demo video from our founder, Bobby, showing you how to easily get your institution onto the RTP® network.
 
-#### **Any questions about Real-Time Payments? We’re here for you. Shoot us an email at <hello@evidentsystems.com.>**
+#### **Any questions about Real-Time Payments? We’re here for you. Shoot us an email at [hello@evidentsystems.com.](hello@evidentsystems.com)**
