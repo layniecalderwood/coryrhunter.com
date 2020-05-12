@@ -8,7 +8,7 @@ As someone involved in the world of finance and technology, it’s almost inevit
 
 #### **First, the basics.**
 
-[The Clearing House](https://www.theclearinghouse.org/about/history) is this big conglomeration of the largest commercial banks within the banking industry. The group formed back in 1853 to foster industry collaboration and has withstood every financial crisis or world disasters since without interruption. TCH has been at the forefront of every major banking innovation--in operations, technology development, thought leadership, policy-making, consulting, research--you name it! Impressive, right?
+The Clearing House is this big conglomeration of the largest commercial banks within the banking industry. The group formed back in 1853 to foster industry collaboration and has withstood every financial crisis or world disasters since without interruption. TCH has been at the forefront of every major banking innovation--in operations, technology development, thought leadership, policy-making, consulting, research--you name it! Impressive, right?
 
 So, in total alignment with their historic brand, TCH launched RTP® in 2017, the first real-time payment system that is accessible to all banks in the United States. The RTP® network is remarkable and is finally bringing banking up to speed with the rest of the real-time world. Any financial institution can onboard the RTP® network and give their customers the option of instantly transferring money for large sum transactions. Think Venmo, but for business or government transactions--moving thousands, or even millions of dollars at a time.
 
