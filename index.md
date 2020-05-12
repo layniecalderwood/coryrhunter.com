@@ -1,6 +1,6 @@
 ---
-title: You cute
-author: laynie
+title: Cory Hunter
+author: Cory
 ---
 ## Merry Christmas, Cory!
 
