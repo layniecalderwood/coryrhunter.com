@@ -3,6 +3,7 @@ title: Cory Hunter
 author: Cory
 ---
 # Everything you want to know about Real-Time Payments
+
 As someone involved in the world of finance and technology, it’s almost inevitable that you’ve heard about Real-Time Payments. But are you wondering-- what’s the big deal? At this point, most everyone in the FinTech world would expect that it’s common knowledge. But if you still have questions and don’t want to feel left out of hype, this is your guide to navigating Real-Time Payments; where it came from, where it’s taking the world, and what it means for you and your business.
 
 #### **First, the basics.**
@@ -34,4 +35,4 @@ If you’re a small bank, credit union, or other type of financial institution, 
 
 That’s where we come in. Here at Evident Systems, we have assessed all of the major barriers of integrating into the RTP® network and simplified it just for you. We know all the ins and outs of the RTP® network and we’re here to help you move into the future. Check out this demo video from our founder, Bobby, showing you how to easily get your institution onto the RTP® network.
 
-#### **Any questions about Real-Time Payments? We’re here for you. Shoot us an email at [hello@evidentsystems.com.](hello@evidentsystems.com)**
+#### **Any questions about Real-Time Payments? We’re here for you. Shoot us an email at <hello@evidentsystems.com>.**
