@@ -3,9 +3,7 @@ title: Cory Hunter
 author: Cory
 ---
 
-(559)974-5374 ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](linkedin.com/in/coryrhunter)
-
-####EDUCATION
+#### EDUCATION
 
 Bachelor of Science: Applied and Computational Mathematics, Emphasis in Financial Markets
 Bachelor of Science: Economics          
@@ -18,7 +16,7 @@ Associate of Mathematics
 ..* Student Athlete
 ..* Graduated with High Honors
 
-####EXPERIENCE
+#### EXPERIENCE
 Software Engineer Intern
 ..* Using Clojure, Clojure Script, React and AWS to build a user-friendly system to support corporate supply chains
 
@@ -41,7 +39,7 @@ Project Intern
 ..* Worked with the backend-software developers to improve the user interface of the company’s website
 ..* During the project we were able to take their website from less than 10 ads to over 1500
 
-####CLASSES COMPLETED BEFORE SUMMER 2020
+#### CLASSES COMPLETED BEFORE SUMMER 2020
 
 *Applied Math Junior Core Classes (Python Based Mathematics)*
 SQL
@@ -64,7 +62,7 @@ Unix Shell
 *Industrial Organization*
    Modeling and strategy for imperfect markets
 
-####PERSONAL PROJECTS
+#### PERSONAL PROJECTS
 
 Reddit Bot
 ..* Created a Python Script that registers whenever a post is made on a given subreddit and comments an appropriate response.
