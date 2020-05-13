@@ -2,13 +2,13 @@
 title: Cory Hunter
 author: Cory
 ---
-[559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)
+#### [559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)
 
 ### EDUCATION
 
 **Bachelor of Science:** Applied and Computational Mathematics with an emphasis in Financial Markets, Economics
 
-*Brigham Young University, Provo, UT* ∙ August 2018-April 2021
+*Brigham Young University, Provo, UT* ∙ August 2018 - April 2021
 
 ---
 
@@ -19,7 +19,7 @@ author: Cory
 
 **Associate of Mathematics**
 
-*Utah Valley University, Orem, UT* ∙ August 2015-May 2016
+*Utah Valley University, Orem, UT* ∙ August 2015 - May 2016
 
 ---
 
@@ -29,7 +29,7 @@ author: Cory
 ### EXPERIENCE
 **Software Engineer Intern**
 
-*Evident Systems, Reston, VA* ∙ April 2020-Present
+*Evident Systems, Reston, VA* ∙ April 2020 - Present
 
 ---
 
@@ -37,7 +37,7 @@ author: Cory
 
 **Data Science Research Assistant**
 
-*BYU Mathematics Department, Provo, UT* ∙ September 2019-Present
+*BYU Mathematics Department, Provo, UT* ∙ September 2019 - Present
 
 ---
 
@@ -48,7 +48,7 @@ author: Cory
 
 **Python Research Assistant**
 
-*BYU Economics Department, Provo, UT* ∙ May 2019-September 2019
+*BYU Economics Department, Provo, UT* ∙ May 2019 - September 2019
 
 ---
 
@@ -60,7 +60,7 @@ author: Cory
 
 **Project Intern**
 
-*WhamAds, Provo, UT* ∙ January 2019-April 2019
+*WhamAds, Provo, UT* ∙ January 2019 - April 2019
    * Member of an intern project that analyzed the company and identified flaws in the business model  
    * As the Company Liaison I relayed these challenges and established communication that developed and implemented ideas to improve the company  
    * Worked with the backend-software developers to improve the user interface of the company’s website  
@@ -68,7 +68,7 @@ author: Cory
 
 ### CLASSES COMPLETED BEFORE SUMMER 2020
 
-| **Applied Math | Junior Core Classes | (Python Based Mathematics)** |
+| **Applied Math** | **Junior Core Classes** | **(Python Based Mathematics)** |
 |:------------:|:------------:|:------------:|
 | SQL | Gradient Descent | Q-Learning |
 | Thompson sampling | A/B Testing	Machine Learning |   Krylov subspaces |
