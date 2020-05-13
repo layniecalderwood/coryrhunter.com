@@ -43,12 +43,12 @@ Project Intern
 #### CLASSES COMPLETED BEFORE SUMMER 2020
 
 *Applied Math Junior Core Classes (Python Based Mathematics)*
-| :-----------------:|:-----------------:|:------------------: |
+| :-----------------:|:-----------------:|:-----------------: |
 | SQL     | Gradient Descent | Q-Learning |
-| Thompson sampling    | A/B Testing	Machine Learning      |   Krylov subspaces |
-| Fourier analysis | Singular Value Decomposition    |    Wavelets	Markov Decision Processes |
+| Thompson sampling    | A/B Testing	Machine Learning |   Krylov subspaces |
+| Fourier analysis | Singular Value Decomposition | Wavelets	Markov Decision Processes |
 | Numerical Optimization | Numerical Linear Algebra | Data Structures |
-| Unix Shell | | | | |
+| Unix Shell |
 
 *Machine Learning for Economists*
   Machine learning in Python focusing on supervised models in sklearn but includes unsupervised for dimension reduction
