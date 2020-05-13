@@ -4,13 +4,13 @@ author: Cory
 ---
 [559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)  
 
-#### EDUCATION
+### EDUCATION
 
 **Bachelor of Science:** Applied and Computational Mathematics with an emphasis in Financial Markets, Economics
 
 *Brigham Young University, Provo*
 
-<divalign="right">August 2018-April 2021</div>
+<div align="right">August 2018-April 2021</div>
 
 ---
 
@@ -19,11 +19,11 @@ author: Cory
    * Proficient in Python  
    * Experience with C++, Matlab, LaTeX, Git, Clojure, Clojure Script, React, AWS  
 
-Associate of Mathematics
+**Associate of Mathematics**
    * Student Athlete  
    * Graduated with High Honors  
 
-#### EXPERIENCE
+### EXPERIENCE
 **Software Engineer Intern**
    + Using Clojure, Clojure Script, React and AWS to build a user-friendly system to support corporate supply chains  
 
@@ -46,7 +46,7 @@ Associate of Mathematics
    * Worked with the backend-software developers to improve the user interface of the company’s website  
    * During the project we were able to take their website from less than 10 ads to over 1500  
 
-#### CLASSES COMPLETED BEFORE SUMMER 2020
+### CLASSES COMPLETED BEFORE SUMMER 2020
 
 | **Applied Math Junior Core Classes (Python Based Mathematics)** |
 |:------------:|:------------:|:------------:|
@@ -64,7 +64,7 @@ Associate of Mathematics
 
    Modeling and strategy for imperfect markets
 
-#### PERSONAL PROJECTS
+### PERSONAL PROJECTS
 
 **Reddit Bot**
    * Created a Python Script that registers whenever a post is made on a given subreddit and comments an appropriate response.
