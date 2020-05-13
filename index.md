@@ -42,7 +42,7 @@ Project Intern
 
 #### CLASSES COMPLETED BEFORE SUMMER 2020
 
-| *Applied Math Junior Core Classes (Python Based Mathematics)* |
+*Applied Math Junior Core Classes (Python Based Mathematics)*
 | :-----------------:|:-----------------:|:------------------: |
 | SQL     | Gradient Descent | Q-Learning |
 | Thompson sampling    | A/B Testing	Machine Learning      |   Krylov subspaces |
@@ -59,4 +59,4 @@ Project Intern
 #### PERSONAL PROJECTS
 
 Reddit Bot
-      * Created a Python Script that registers whenever a post is made on a given subreddit and comments an appropriate response.
+   * Created a Python Script that registers whenever a post is made on a given subreddit and comments an appropriate response.
