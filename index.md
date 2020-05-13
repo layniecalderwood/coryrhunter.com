@@ -2,7 +2,7 @@
 title: Cory Hunter
 author: Cory
 ---
-<div align="center">[559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)</div> 
+<div align="center">[559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)</div>
 
 ### EDUCATION
 
@@ -54,15 +54,7 @@ author: Cory
 | Thompson sampling | A/B Testing	Machine Learning |   Krylov subspaces |
 | Fourier analysis | Singular Value Decomposition | Wavelets	Markov Decision Processes |
 | Numerical Optimization | Numerical Linear Algebra | Data Structures |
-| Unix Shell |
-
-**Machine Learning for Economists**
-
-  Machine learning in Python focusing on supervised models in sklearn but includes unsupervised for dimension reduction
-
-**Industrial Organization**
-
-   Modeling and strategy for imperfect markets
+| Unix Shell | Machine Learning for Economists | Industrial Organization |
 
 ### PERSONAL PROJECTS
 
