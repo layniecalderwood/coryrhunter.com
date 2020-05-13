@@ -6,8 +6,7 @@ author: Cory
 
 #### EDUCATION
 
-Bachelor of Science: Applied and Computational Mathematics, Emphasis in Financial Markets
-Bachelor of Science: Economics          
+Bachelor of Science: Applied and Computational Mathematics with an emphasis in Financial Markets, Economics
    * Member of the Society for Industrial and Applied Mathematics and Mathematical Finance clubs  
    * Relevant Coursework: Econometrics, Algorithm Design and Optimization, Mathematical Analysis, Price Theory 1, Intermediate Macroeconomics, Statistics for Economists, Multivariable Calculus, Linear Algebra, Intro to C++  
    * Proficient in Python  
