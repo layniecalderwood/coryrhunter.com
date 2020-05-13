@@ -8,9 +8,7 @@ author: Cory
 
 **Bachelor of Science:** Applied and Computational Mathematics with an emphasis in Financial Markets, Economics
 
-*Brigham Young University, Provo*
-
-<div align="right">August 2018-April 2021</div>
+*Brigham Young University, Provo* <div align="right">August 2018-April 2021</div>
 
 ---
 
