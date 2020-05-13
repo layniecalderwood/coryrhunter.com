@@ -18,11 +18,11 @@ Associate of Mathematics
 
 #### EXPERIENCE
 Software Engineer Intern
-..* Using Clojure, Clojure Script, React and AWS to build a user-friendly system to support corporate supply chains
+..+Using Clojure, Clojure Script, React and AWS to build a user-friendly system to support corporate supply chains
 
 Data Science Research Assistant 	
-..* Using Data Science techniques in Python to analyze millions of entries of market data for NHC Capital
-..* Analyzing an anomaly that occurred in 2016 with the company’s portfolio strategy and determining if there are leading indicators in order to prevent future losses
+..+Using Data Science techniques in Python to analyze millions of entries of market data for NHC Capital  
+..+Analyzing an anomaly that occurred in 2016 with the company’s portfolio strategy and determining if there are leading indicators in order to prevent future losses  
 ..* Performing dimension reduction with a PCA model
 ..* Building a both linear regression and a random forest models with data I personally manipulated and gathered from the schools Bloomberg Terminal and other resources
 
