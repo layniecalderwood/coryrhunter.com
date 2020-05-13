@@ -2,6 +2,7 @@
 title: Cory Hunter
 author: Cory
 ---
+(559)974-5374 ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](linkedin.com/in/coryrhunter)  
 
 #### EDUCATION
 
