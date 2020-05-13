@@ -8,8 +8,10 @@ author: Cory
 
 **Bachelor of Science: Applied and Computational Mathematics with an emphasis in Financial Markets, Economics**
 
-*Brigham Young University, Provo* ---------------August 2018-April 2021
-____
+*Brigham Young University, Provo* <divalign="right">August 2018-April 2021
+
+---
+
    * Member of the Society for Industrial and Applied Mathematics and Mathematical Finance clubs  
    * Relevant Coursework: Econometrics, Algorithm Design and Optimization, Mathematical Analysis, Price Theory 1, Intermediate Macroeconomics, Statistics for Economists, Multivariable Calculus, Linear Algebra, Intro to C++  
    * Proficient in Python  
