@@ -2,15 +2,13 @@
 title: Cory Hunter
 author: Cory
 ---
-<div align="center"> [559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter) </div>
+[559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)
 
 ### EDUCATION
 
 **Bachelor of Science:** Applied and Computational Mathematics with an emphasis in Financial Markets, Economics
 
-*Brigham Young University, Provo*
-
-<div align="right">August 2018-April 2021</div>
+*Brigham Young University, Provo* ∙ August 2018-April 2021
 
 ---
 
