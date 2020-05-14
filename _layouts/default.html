@@ -11,6 +11,14 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.fwh-slide {
+  height: 100vh;
+  background: #1F5992
+  box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Style the header */
@@ -105,7 +113,8 @@ footer {
   <p> Home page</p>
 </article></a>
 
-<a id="resume"><article>
+<a id="resume"><body>
+  <section class="fwh-slide">
    <p> {{ "<h2>EDUCATION</h2>
 
    **Bachelor of Science(s):** Applied and Computational Mathematics with an emphasis in Financial Markets, Economics
@@ -179,9 +188,9 @@ footer {
    **Reddit Bot**
    <ul>
      <li>Created a Python Script that registers whenever a post is made on a given subreddit and comments an appropriate response.</li>
-   </ul> "| markdownify }} </p>
+   </ul> "| markdownify }} </p></slide>
 
- </article></a>
+ </body></a>
 
  <a id="contact"><article>
    <p> {{ "[559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)" | markdownify }} </p>
