@@ -18,7 +18,6 @@ body {
   height: 100vh;
   background-color: #1F5992;
   box-sizing: content-box;
-  height: 500px
 }
 
 .fwh-slide--bg-grey{
@@ -106,9 +105,9 @@ footer {
 <nav>
 <ul>
   <li><a href="#homepage">Home</a></li>
-  <li><a href="#resume">Resume</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="about.asp">About</a></li>
+  <li><a href="#resume">Resume</a></li>
 </ul>
 </nav>
 
@@ -117,7 +116,12 @@ footer {
   <p> Home page</p>
 </article></a>
 
-<a id="resume"><section class="fwh-slide">
+<a id="contact"><section class="fwh-slide fwh-slide--bg-grey">
+  <p> {{ "[559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)" | markdownify }}
+  </p>
+</section></a>
+
+<a id="resume"><article>
    <p>
      {{ "<h2>EDUCATION</h2>
 
@@ -195,13 +199,7 @@ footer {
    </ul> "| markdownify }}
  </p>
 
- </section></a>
-
- <a id="contact"><section class="fwh-slide fwh-slide--bg-grey">
-   <p> {{ "[559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)" | markdownify }}
-   </p>
- </section></a>
-
+</article></a>
 
 <footer>
   <p>Footer</p>
