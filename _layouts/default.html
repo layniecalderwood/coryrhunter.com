@@ -42,6 +42,7 @@ header {
   color: white;
   font-family: "Times New Roman",Times, serif;
   width: 100%;
+  margin: 0;
 }
 
 header:hover {
@@ -55,9 +56,6 @@ nav ul {
   overflow: hidden;
   overflow: hidden;
   background-color: #606264;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -111,10 +109,9 @@ footer {
 </ul>
 </nav>
 
-<a id="homepage">
-<article>
+<a id="homepage"><section class="fwh-slide fwh-slide--bg-grey">
   <p> Home page</p>
-</article></a>
+</section></a>
 
 <a id="contact"><section class="fwh-slide">
   <p> {{ "[559-974-5374](tel:5599745374) ∙ <coryhunter.byu@gmail.com> ∙ [LinkedIn](https://linkedin.com/in/coryrhunter)" | markdownify }}
