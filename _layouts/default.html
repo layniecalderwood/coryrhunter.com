@@ -57,9 +57,11 @@ body {
 }
 
 /* Clear floats after image containers */
-.row {
-  display: table;
-}
+.row::after section{
+ content: "";
+ clear: both;
+ display: table;
+ }
 
 </style>
 
