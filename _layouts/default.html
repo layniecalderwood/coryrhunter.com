@@ -58,8 +58,9 @@ body {
 }
 
 .row::after {
-  clear: left;
-  content: ""
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .fwh-slide--row div {
@@ -224,9 +225,7 @@ footer li a {
   <br>
 </section></a>
 
-<a id="about"><section class="fwh-slide fwh-slide--row">
-  <div>
-  <div class="row">
+<a id="about"><div class="row">
     <div class="column">
       <img src="/img/Cory/aftonfishing.jpg" width="200" height="200">
     </div>
@@ -251,7 +250,6 @@ footer li a {
     <div class="column">
       <img src="/img/Cory/mission.jpg" width="200" height="200">
     </div>
-</div>
 </div>
 </section></a>
 
