@@ -64,28 +64,20 @@ body {
   height: auto;
 }
 
-.box {
-  opacity: 0.5;
-  text-align: center;
-  color: black;
-  font-size: 12px;
-}
-
-.box:hover {
-  opacity: 1;
-}
-
 .container {
   position: relative;
-  text-align: center;
-  color: black;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
 }
 
 </style>
@@ -249,45 +241,22 @@ footer li a {
 
 <a id="about">
   <section id="photos">
-    <div class="box">
-      <div class="container">
-        <img src="/img/Cory/mission.jpg" alt="Naperville, Illinois" height="200" width="200">
-        <div class="centered"> I served a mission for the Church of Jesus Christ of Latter-day Saints near Chicago, IL. I was away from home with limited contact with my family for two years from 2016-2018. </div>
+    <div class="container">
+          <img src="/img/Cory/mission.jpg" alt="Naperville, Illinois" height="200" width="200">
+      <div class="content">
+        <p>I served a mission for the Church of Jesus Christ of Latter-day Saints near Chicago, IL. I was away from home with limited contact with my family for two years from 2016-2018.</p></div>
     </div>
-    </div>
-    <div class="box">
       <img src="/img/Cory/aftonfishing.jpg" alt="Afton, Wyoming" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/timp.jpg" alt="Mount Timpanogos, Utah" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/rugby.jpg" alt="Utah Valley University" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/snowboarding.jpg" alt="Sundance, Utah" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/golfing.jpg" alt="Dulles, Virginia" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/arches.jpg" alt="Moab, Utah" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/iceland.jpg" alt="Reynisfjara, Iceland" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/costarica.jpg" alt="Costa Rica" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/glacier.jpg" alt="Glacier National Park" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/washingtondc.jpg" alt="Washington, District of Columbia" height="200" width="200">
-    </div>
-    <div class="box">
       <img src="/img/Cory/chincoteague.jpg" alt="Chincoteague, Virginia" height="200" width="200">
-    </div>
    </section>
 </a>
 
