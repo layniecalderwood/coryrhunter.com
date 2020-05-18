@@ -75,6 +75,19 @@ body {
   opacity: 1;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 </style>
 
 <style>
@@ -237,8 +250,10 @@ footer li a {
 <a id="about">
   <section id="photos">
     <div class="box">
-      I served a mission for the Church of Jesus Christ of Latter-day Saints near Chicago, IL. I was away from home with limited contact with my family for two years from 2016-2018.
-      <img src="/img/Cory/mission.jpg" alt="Naperville, Illinois" height="200" width="200">
+      <div class="container">
+        <img src="/img/Cory/mission.jpg" alt="Naperville, Illinois" height="200" width="200">
+        <div class="centered">I served a mission for the Church of Jesus Christ of Latter-day Saints near Chicago, IL. I was away from home with limited contact with my family for two years from 2016-2018.</div>
+    </div>
     </div>
     <div class="box">
       <img src="/img/Cory/aftonfishing.jpg" alt="Afton, Wyoming" height="200" width="200">
