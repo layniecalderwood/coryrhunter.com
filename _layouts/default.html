@@ -49,30 +49,15 @@ body {
   padding: 45px;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0;
-  font-size: 0px;
-  opacity: 0.5;
-}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 5vw);
+    grid-gap: 15px;
+  }
 
-.row {
-  padding: 0;
-  margin: 0;
-  font-size: 0;
-}
-
-.row::after {
-  padding: 0;
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.column:hover {
-  opacity: 1;
+.gallery__img {
+    object-fit: cover;
 }
 
 </style>
@@ -235,40 +220,32 @@ footer li a {
 </section></a>
 
 <a id="about">
-  <br>
-  <br>
-  <br>
-  <br>
-  <div class="row">
-    <div class="column">
+  <div class="gallery">
+    <figure class="gallery__item gallery__item--1">
       <img src="/img/Cory/aftonfishing.jpg" width="200" height="200">
-    </div>
-    <div class="column">
+    </figure>
+    <figure class="gallery__item gallery__item--2">
       <img src="/img/Cory/timp.jpg" width="200" height="200">
-    </div>
-    <div class="column">
+    </figure>
+    <figure class="gallery__item gallery__item--3">
       <img src="/img/Cory/rugby.jpg" width="200" height="200">
-    </div>
-    <div class="column">
+    </figure>
+    <figure class="gallery__item gallery__item--4">
       <img src="/img/Cory/snowboarding.jpg" width="200" height="200">
-    </div>
-    <div class="column">
+    </figure>
+    <figure class="gallery__item gallery__item--5">
       <img src="/img/Cory/iceland.jpg" width="200" height="200">
-    </div>
-    <div class="column">
+    </figure>
+    <figure class="gallery__item gallery__item--6">
       <img src="/img/Cory/costarica.jpg" width="200" height="200">
-    </div>
-    <div class="column">
+    </figure>
+    <figure class="gallery__item gallery__item--7">
       <img src="/img/Cory/glacier.jpg" width="200" height="200">
-    </div>
-    <div class="column">
+    </figure>
+    <figure class="gallery__item gallery__item--5">
       <img src="/img/Cory/mission.jpg" width="200" height="200">
-    </div>
+    </figure>
   </div>
-  <br>
-  <br>
-  <br>
-  <br>
 </section></a>
 
 <a id="resume"><article>
