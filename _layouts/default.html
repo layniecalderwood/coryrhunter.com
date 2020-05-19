@@ -64,14 +64,17 @@ body {
   height: auto;
 }
 
-.thumbnail:hover {
-    position:relative;
-    bottom:-25px;
-    right:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+.location-listing {
+  position: relative;
+}
+
+.location-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(90,0,10,0.4);
 }
 
 </style>
@@ -237,7 +240,10 @@ footer li a {
   <section id="photos">
 
     <div class="box">
-          <img src="/img/Cory/mission.jpg" alt="Naperville, Illinois" class="thumbnail" height="200" width="200">
+        <img src="/img/Cory/mission.jpg" alt="Naperville, Illinois" class="thumbnail" height="200" width="200">
+          <div class="location">
+              East Dundee, IL
+            </div>
     </div>
 
     <div class="box">
