@@ -34,7 +34,16 @@ header p {
     width:100%;
 }
 
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 
+}
+
+.box {
+  animation: fade-in 3s;
+
+}
 
 .fwh-slide {
   height: 100vh;
@@ -225,12 +234,8 @@ footer li a {
 <div id="wrapper">
 
 <a id="    "><header>
-  <title>W3.CSS</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <body>
-  <div class="w3-container">
-    <p class="w3-animate-opacity">
+    <div class="box">
     <span>
       Cory Hunter
     </span></p>
