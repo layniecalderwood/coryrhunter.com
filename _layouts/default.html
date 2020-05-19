@@ -85,23 +85,23 @@ header {
   margin: 0;
 }
 
-header div {
-  color: rgba(0, 0, 0, 0);
-  font-size: 15px;
-  text-align: right;
-  padding: 77px;
-  opacity: 0;
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
 }
 
-header div:hover {
-  color: black;
-  opacity: 1;
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
 }
 
-header:hover {
-  opacity: 1;
-  color: rgba(0, 0, 0, 0);
-}
+
 
 nav ul {
   list-style-type: none;
@@ -183,9 +183,12 @@ footer li a {
 <body>
 
 <a id="    "><header>
-  <h1>Cory Hunter</h1>
-  <div> <img src="/img/pin.png" alt=pin height="16" width="10" padding="4"> Reynisfjara, Iceland</div>
-
+  <!-- <div> <img src="/img/pin.png" alt=pin height="16" width="10" padding="4"> Reynisfjara, Iceland</div> -->
+  <div class="container">
+    <div class="content">
+      <<h1>Cory Hunter</h1>
+    </div>
+  </div>
 </header></a>
 
 <nav>
@@ -241,7 +244,6 @@ footer li a {
     <div class="box">
           <img src="/img/Cory/rugby.jpg" alt="Utah Valley University" height="200" width="200">
     </div>
-
 
     <div class="box">
           <img src="/img/Cory/snowboarding.jpg" alt="Sundance, Utah" height="200" width="200">

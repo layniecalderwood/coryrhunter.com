@@ -6,7 +6,7 @@ author: Cory
 
 #### EDUCATION
 
-**Bachelor of Science:** Applied and Computational Mathematics with an emphasis in Financial Markets, Economics
+**Bachelor of Science(s):** Applied and Computational Mathematics with an emphasis in Financial Markets, Economics
 
 *Brigham Young University, Provo, UT* ∙ August 2018 - April 2021
 
