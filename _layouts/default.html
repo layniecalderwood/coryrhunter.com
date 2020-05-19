@@ -67,17 +67,14 @@ body {
 .container {
   position: relative;
   margin: 0 auto; /* Center it */
-}
-
-.container:hover {
-  background-color: black;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 
 .container .content {
   position: absolute; /* Position the background text */
-  top: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  top: 40%; /* At the bottom. Use top:0 to append it to the top */
+  left: 30%;
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
   height: 100%;
