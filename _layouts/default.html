@@ -1,53 +1,307 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="content-script-type" content="text/javascript" />
+  <meta http-equiv="content-style-type" content="text/css" />
+  <meta http-equiv="content-language" content="nl" />
 
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<meta http-equiv="content-script-type" content="text/javascript" />
-		<meta http-equiv="content-style-type" content="text/css" />
-		<meta http-equiv="content-language" content="nl" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Pascal van Gemert" />
+  <meta name="description" content="I'm Pascal van Gemert, a ninja webdeveloper / creative programmer with good knowledge of front-end technics." />
+  <meta name="keywords" content="Pascal van Gemert, Interactive Resume, PHP programmer, Web developer, Startup, Interactive CV, Resume, CV, Whoopaa, HRMatches, Sanitairwinkel, Algorithms, PHP, MySQL, OOP" />
+  <meta name="robots" content="index, follow" />
+  <meta name="revisit-after" content="14 days" />
 
-		<meta name="author" content="Pascal van Gemert" />
-		<meta name="description" content="I'm Pascal van Gemert, a ninja webdeveloper / creative programmer with good knowledge of front-end technics." />
-		<meta name="keywords" content="Pascal van Gemert, Interactive Resume, PHP programmer, Web developer, Startup, Interactive CV, Resume, CV, Whoopaa, HRMatches, Sanitairwinkel, Algorithms, PHP, MySQL, OOP" />
-		<meta name="robots" content="index, follow" />
-		<meta name="revisit-after" content="14 days" />
+<title>Cory Hunter</title>
 
-		<title>Pascal van Gemert - Web Developer - Interactive Resume</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+<link href="/view/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/view/style.css" rel="stylesheet" />
 
-		<!-- Bootstrap core CSS -->
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
-		<link href="/view/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="/view/style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<script type="text/javascript" id="inspectletjs">
+  window.__insp = window.__insp || [];
+  __insp.push(['wid', 92785244]);
+  (function() {
+    function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+    if (window.attachEvent){
+      window.attachEvent('onload', __ldinsp);
+    }else{
+      window.addEventListener('load', __ldinsp, false);
+    }
+  })();
+</script>
 
-		<!--[if lt IE 9]>
-			<script src="/view/js/html5shiv.js"></script>
-			<script src="/view/js/respond.min.js"></script>
-		<![endif]-->
 
-		<!-- Begin Inspectlet Embed Code -->
-		<script type="text/javascript" id="inspectletjs">
-			window.__insp = window.__insp || [];
-			__insp.push(['wid', 92785244]);
-			(function() {
-				function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
-				if (window.attachEvent){
-					window.attachEvent('onload', __ldinsp);
-				}else{
-					window.addEventListener('load', __ldinsp, false);
-				}
-			})();
-		</script>
-		<!-- End Inspectlet Embed Code -->
-    
-	</head>
-	<body data-spy="scroll" data-target="#navbar-example">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Neuton", Times, serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Neuton", Times: serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Neuton", Times, serif;
+  text-align: center;
+  font-size: 50px;
+  color: #1D4C7A;
+}
+
+h3 {
+  font-family: "Neuton", Times, serif;
+  text-align: left;
+  font-size: 35px;
+  color: #1D4C7A;
+}
+
+h4 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+div {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: right;
+  display: inline-block;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+span h1 {
+  animation-duration: 6s;
+  animation-name: fadein;
+}
+
+header body {
+  font: 400 1em/1.5 "Neuton";
+  color: rgba(255,255,255,.25);
+  text-align: center;
+  margin: 0
+}
+
+header h1 {
+	text-transform: uppercase;
+	letter-spacing: .8em;
+	display: inline-block;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+}
+
+.fwh-slide {
+  height: 100vh;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.fwh-slidebg-grey{
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding-top: 275px;
+  padding-left: 115px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#photos {
+  line-height: 0;
+  -webkit-column-count: 6;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 6;
+  -moz-column-gap: 0px;
+  column-count: 6;
+  column-gap: 0px;
+}
+
+#photos img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+</style>
+
+<style>
+
+header {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.38),
+    rgba(0, 0, 0, 0.38)),
+    url(/img/Cory/header5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  padding: 150px;
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  height: 700px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #606264;
+  overflow: hidden;
+}
+
+nav {
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+nav li{
+  float: left;
+}
+
+/* Style the list inside the menu */
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align:center;
+  padding: 14px 16px;
+  color: white;
+}
+
+nav ul li a:hover:not(.active) {
+  background-color: #55585C;
+}
+
+nav li:last-child {
+  border-left: 2px solid white;
+}
+
+.active {
+  background-color: #1F5992;
+}
+
+.active:hover {
+  background-color: #1B4C7B;
+}
+
+
+article {
+  float: none;
+  padding: 45px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* footer {
+  top: 0;
+  width: 100%;
+  background-color: #606264;
+  padding: 0;
+  text-align:center;
+  color: white;
+} */
+
+/* footer li {
+  list-style-type: none;
+} */
+
+/* footer li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 14px 16px;
+} */
+
+</style>
+</head>
+<body>
 
 		<div id="top" class="jumbotron" data-src="/img/Cory/header5.jpg" data-position="center center">
 			<div class="container">
@@ -369,1770 +623,10 @@
 
 </div>
 
-		</div>
 
-		<div class="background-white">
-			<div id="abilities" class="container">
-				<h2>Abilities</h2>
-<p class="lead">
-	&ldquo;Life without knowledge is death in disguise.&rdquo;<br />- Talib Kweli
-</p>
-
-<hr />
-
-<h3>Skills</h3>
-
-<div class="row">
-
-
-	<div class="col-md-6">
-		<ul class="no-bullets">
-
-
-			<li>
-				<span class="ability-title">Bootstrap Framework</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">CSS(3)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">HTML(5)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">JSON</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">MySQL</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">PHP</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">XML</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Builder Pattern</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Command line Inteface</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">JQuery</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Java</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Javascript</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">LESS</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Laravel Framework</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-		</ul>
-	</div>
-	<div class="col-md-6">
-		<ul class="no-bullets">
-
-
-
-			<li>
-				<span class="ability-title">MVC Pattern</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Method Factory Pattern</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Object Orientated Programming</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">SASS / SCSS</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">SEO</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Scrum</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Singleton Pattern</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">UML</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Wordpress</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">BEM</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">AngularJS</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">ElasticSearch</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Ruby</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-		</ul>
-	</div>
-
-
-</div>
-
-<div class="text-center project-referal">
-	<p>This project is build on a custom made PHP framework.</p>
-	<a href="https://github.com/pascalvgemert/resume" class="btn btn-primary" target="_blank">See project on Github</a>
-</div>
-
-<hr />
-
-<h3>Languages</h3>
-
-<div class="row">
-
-
-	<div class="col-md-6">
-		<ul class="no-bullets">
-
-
-			<li>
-				<span class="ability-title">Dutch (Mother tongue)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">English (Daily use)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-		</ul>
-	</div>
-	<div class="col-md-6">
-		<ul class="no-bullets">
-
-
-
-			<li>
-				<span class="ability-title">German (Survivable)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">French (Un petit peu)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-		</ul>
-	</div>
-
-
-</div>
-
-<hr />
-
-<h3>Tools</h3>
-
-<div class="row">
-
-	<div class="col-md-6">
-		<ul class="no-bullets">
-
-
-			<li>
-				<span class="ability-title">FileZilla (8 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Firefox (8 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">MS Office (10+ years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Mac (5 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Notepad++ (8 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Webkit browsers (6 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Windows (10+ years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Adobe Fireworks (8 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Atlassian / Jira (3 year)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-		</ul>
-	</div>
-	<div class="col-md-6">
-		<ul class="no-bullets">
-
-
-
-			<li>
-				<span class="ability-title">Coda2 (4 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Git / Git Flow (4 year)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Internet Explore 10+ (8 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">MAMP (2 year)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">PHPStorm (2 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Sublime Text (2 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Subversion (5 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Adobe Photoshop (6 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-			<li>
-				<span class="ability-title">Sketch (1 years)</span>
-				<span class="ability-score">
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star filled"></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-					<span class="glyphicon glyphicon-star "></span>
-
-
-				</span>
-			</li>
-
-
-
-		</ul>
-	</div>
-
-	</div>			</div>
-		</div>
-
-
-		<div id="projects" class="container">
-			<h2>Projects</h2>
-<p class="lead">
-	&ldquo;You can do anything you set your mind to.&rdquo;<br />- Benjamin Franklin
-</p>
-
-<hr />
-
-
-<div class="row">
-
-
-	<div class="col-md-6 col-sm-12 col-xs-12">
-		<figure class="effect">
-			<img src="/view/images/project_mals.jpg" alt="Mals" />
-
-			<figcaption>
-				<h3>Mals</h3>
-				<p>Mals, a creative agency located in Rotterdam.</p>
-				<p><strong>Tags:</strong> <br />Development, Wordpress, Bootstrap</p>
-				<a href="http://studiomals.com" target="_blank">View more</a>
-				<span class="icon">
-					<span class="glyphicon glyphicon-new-window"></span>
-				</span>
-			</figcaption>
-		</figure>
-	</div>
-
-
-	<div class="col-md-6 col-sm-12 col-xs-12">
-		<figure class="effect">
-			<img src="/view/images/project_soap.jpg" alt="SOAP - Den Bosch" />
-
-			<figcaption>
-				<h3>SOAP - Den Bosch</h3>
-				<p>Build the website of the local barbershop.</p>
-				<p><strong>Tags:</strong> <br />Design, Development, Bootstrap, Wordpress</p>
-				<a href="http://soaphair.nl" target="_blank">View more</a>
-				<span class="icon">
-					<span class="glyphicon glyphicon-new-window"></span>
-				</span>
-			</figcaption>
-		</figure>
-	</div>
-
-
-	<div class="col-md-6 col-sm-12 col-xs-12">
-		<figure class="effect">
-			<img src="/view/images/project_oranjebitter.jpg" alt="Oranjebitter Rotterdam" />
-
-			<figcaption>
-				<h3>Oranjebitter Rotterdam</h3>
-				<p>Build a website for the Oranjebitter Festival in Rotterdam (3 years in a row)</p>
-				<p><strong>Tags:</strong> <br />Development, Bootstrap, Wordpress</p>
-				<a href="http://oranjebitter-rotterdam.nl" target="_blank">View more</a>
-				<span class="icon">
-					<span class="glyphicon glyphicon-new-window"></span>
-				</span>
-			</figcaption>
-		</figure>
-	</div>
-
-
-	<div class="col-md-6 col-sm-12 col-xs-12">
-		<figure class="effect">
-			<img src="/view/images/project_oetelspel.jpg" alt="Oetelspel" />
-
-			<figcaption>
-				<h3>Oetelspel</h3>
-				<p>An online game specially for Carneval at 's-Hertogenbosch.</p>
-				<p><strong>Tags:</strong> <br />Development, Concept, Founder</p>
-				<a href="http://oetelspel.nl" target="_blank">View more</a>
-				<span class="icon">
-					<span class="glyphicon glyphicon-new-window"></span>
-				</span>
-			</figcaption>
-		</figure>
-	</div>
-
-
-</div>
-
-		</div>
-
-		<div class="background-gray">
-			<div id="contact" class="container">
-				<h2>Contact</h2>
-<p class="lead">
-	&ldquo;If I had asked people what they wanted, they would have said faster horses. &rdquo;<br />- Henry Ford
-</p>
-
-<hr />
-
-<div class="row">
-	<div class="col-md-6">
-		<ul class="no-bullets">
-			<li>
-				<a href="http://twitter.com/pascalvgemert" target="_blank">
-					<span class="icon icon-twitter"></span>
-					http://twitter.com/pascalvgemert				</a>
-			</li>
-			<li>
-				<a href="http://linkedin.nl/in/pascalvgemert/" target="_blank">
-					<span class="icon icon-linkedin"></span>
-					http://linkedin.nl/in/pascalvgemert/				</a>
-			</li>
-		</ul>
-	</div>
-	<div class="col-md-6">
-		<ul class="no-bullets">
-			<!--<li>
-				<a href="javascript:void(0);">
-					<span class="icon icon-skype"></span>
-					pascalvgemert				</a>
-			</li>-->
-			<li>
-				<a href="mailto:ln.tremegnavlacsap@lacsap">
-					<span class="icon icon-email"></span>
-					<span style="unicode-bidi:bidi-override; direction: rtl;">
-						ln.tremegnavlacsap@lacsap					</span>
-				</a>
-			</li>
-		</ul>
-	</div>
-</div>
-
-<hr />
-
-<div class="text-center">
-	<iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.c633b87376883931e7436b93bb46a699.en.html#_=1452458429192&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fwebcache.googleusercontent.com%2Fsearch%3Fq%3Dcache%3AcRExpd3vwGsJ%3Awww.pascalvangemert.nl%2F%2B%26cd%3D1%26hl%3Den%26ct%3Dclnk%26gl%3Dnl%26lr%3Dlang_nl%257Clang_en&amp;size=m&amp;text=Pascal%20van%20Gemert%20-%20Web%20Developer%20-%20Interactive%20Resume&amp;type=share&amp;url=http%3A%2F%2Fpascalvangemert.nl%2F%3Fref%3Dtwitter&amp;via=pascalvgemert" style="position: static; visibility: visible; width: 62px; height: 20px;" data-url="http://pascalvangemert.nl/?ref=twitter"></iframe>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-	<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpascalvangemert.nl%3Fref%3Dfacebook&amp;width=120&amp;height=21&amp;colorscheme=dark&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=143175172374579" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowtransparency="true"></iframe>
-</div>			</div>
-		</div>
-
-		<div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title">Your browser is out of date</h4>
-			</div>
-			<div class="modal-body">
-				<p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To download a newer web browser click on the Upgrade button.</p>
-			</div>
-			<div class="modal-footer">
-				<a href="http://browsehappy.com/" target="_blank" class="btn btn-primary">Upgrade</a>
-			</div>
-		</div><!-- /.modal-content -->
-	</div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-		<!-- Bootstrap core JavaScript -->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript" src="/view/js/script.js"></script>
-		<script type="text/javascript" src="/view/js/bootstrap.min.js"></script>
-
-		<!-- Google Analytics -->
-		<script type="text/javascript">
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-3361587-8']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		</script>
-	</body>
-</html>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Cory Hunter</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Neuton", Times, serif;
-  margin: 0;
-}
-
-h1 {
-  font-family: "Neuton", Times: serif;
-  font-size: 60px;
-  text-align: center;
-}
-
-h2 {
-  font-family: "Neuton", Times, serif;
-  text-align: center;
-  font-size: 50px;
-  color: #1D4C7A;
-}
-
-h3 {
-  font-family: "Neuton", Times, serif;
-  text-align: left;
-  font-size: 35px;
-  color: #1D4C7A;
-}
-
-h4 {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 20px;
-  color: black;
-}
-
-div {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 20px;
-}
-
-.description {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 15px;
-  color: black;
-  text-align: right;
-  display: inline-block;
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0
-  }
-  100% {
-    opacity: 1
-  }
-}
-
-span h1 {
-  animation-duration: 6s;
-  animation-name: fadein;
-}
-
-/* header body {
-  font: 400 1em/1.5 "Neuton";
-  color: rgba(255,255,255,.25);
-  text-align: center;
-  margin: 0
-} */
-
-header h1 {
-	text-transform: uppercase;
-	letter-spacing: .8em;
-	display: inline-block;
-	padding: 1.5em 0em;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 40em;
-	margin: 0 0 0 -20em;
-}
-
-/* #wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width:auto;
-} */
-
-.fwh-slide {
-  height: 100vh;
-  background-color: #f1f1f1;
-  box-sizing: border-box;
-}
-
-.fwh-slidebg-grey{
-  background-color: #f1f1f1;
-  margin: 0;
-}
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 25%;
-  padding-top: 275px;
-  padding-left: 115px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-#photos {
-  line-height: 0;
-  -webkit-column-count: 6;
-  -webkit-column-gap: 0px;
-  -moz-column-count: 6;
-  -moz-column-gap: 0px;
-  column-count: 6;
-  column-gap: 0px;
-}
-
-#photos img {
-  width: 100%;
-  height: auto;
-}
-
-.container {
-  position: relative;
-  width: 100%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 12px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-</style>
-
-<style>
-
-header {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.38),
-    rgba(0, 0, 0, 0.38)),
-    url(/img/Cory/header5.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  padding: 150px;
-  margin: 0;
-  text-align: center;
-  font-size: 60px;
-  color: white;
-  height: 700px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  background-color: #606264;
-  overflow: hidden;
-}
-
-nav {
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
-nav li{
-  float: left;
-}
-
-/* Style the list inside the menu */
-nav ul li a {
-  display: block;
-  text-decoration: none;
-  text-align:center;
-  padding: 14px 16px;
-  color: white;
-}
-
-nav ul li a:hover:not(.active) {
-  background-color: #55585C;
-}
-
-nav li:last-child {
-  border-left: 2px solid white;
-}
-
-.active {
-  background-color: #1F5992;
-}
-
-.active:hover {
-  background-color: #1B4C7B;
-}
-
-
-article {
-  float: none;
-  padding: 45px;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
-/* footer {
-  top: 0;
-  width: 100%;
-  background-color: #606264;
-  padding: 0;
-  text-align:center;
-  color: white;
-} */
-
-footer li {
-  list-style-type: none;
-}
-
-footer li a {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  color: white;
-  padding: 14px 16px;
-}
-
-</style>
-</head>
-<body>
-
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Neuton" />
-
-<! <div id="wrapper"> -->
-
-<!-- <a id="    "><header>
+<a id="    "><header>
     <span><h1>Cory Hunter</h1></span>
-</header></a> -->
+</header></a>
 
 <!-- <nav>
 <ul>
@@ -2147,88 +641,6 @@ footer li a {
   <p> Home page
   </p>
 </section></a> -->
-
-<!-- <a id="resume"><article>
-
-     <h2>RESUME</h2>
-
-     <hr>
-
-    <h3>EDUCATION</h3>
-    <div>Brigham Young University</div><div class="description">Bachelor of Science(s): Applied and Computational Mathematics with an emphasis in Financial Markets, Economics</div>
-
-    August 2018 - April 2021
-   <ul>
-      <li>Member of the Society for Industrial and Applied Mathematics and Mathematical Finance clubs</li>
-      <li>Relevant Coursework: Econometrics, Algorithm Design and Optimization, Mathematical Analysis, Price Theory 1, Intermediate Macroeconomics, Statistics for Economists, Multivariable Calculus, Linear Algebra, Intro to C++</li>
-      <li>Proficient in Python</li>
-      <li>Experience with C++, Matlab, LaTeX, Git, Clojure, Clojure Script, React, AWS</li>
-    </ul>
-
-   <div> Associate of Mathematics
-
-   Utah Valley University, Orem, UT ∙ August 2015 - May 2016
-   <ul>
-      <li>Student Athlete</li>
-      <li>Graduated with High Honors</li>
-    </ul>
-  </div>
-
-<br>
-<hr>
-
-   <h3>EXPERIENCE</h3>
-
-  <div> Software Engineer Intern
-
-   Evident Systems, Reston, VA ∙ April 2020 - Present
-   <ul>
-      <li>Using Clojure, Clojure Script, React and AWS to build a user-friendly system to support corporate supply chains</li>
-    </ul>
-
-   Data Science Research Assistant
-
-   BYU Mathematics Department, Provo, UT ∙ September 2019 - Present
-   <ul>
-      <li>Using Data Science techniques in Python to analyze millions of entries of market data for NHC Capital</li>
-      <li>Analyzing an anomaly that occurred in 2016 with the company’s portfolio strategy and determining if there   are leading indicators in order to prevent future losses</li>
-      <li>Performing dimension reduction with a PCA model</li>
-      <li>Building a both linear regression and a random forest models with data I personally manipulated and gathered from the schools Bloomberg Terminal and other resources</li>
-   </ul>
-
-   Python Research Assistant
-
-   BYU Economics Department, Provo, UT ∙ May 2019 - September 2019
-  <ul>
-      <li>Collaborated with a team for the Computer Vision aspect of the project that is aimed at using Python to more efficiently analyze census records for FamilySearch and gravestones for BillionGraves</li>
-      <li>Packages used: Pandas, Selenium, BeautifulSoup, NumPy, CV, CV2, OS, Sys, Glob</li>
-      <li>Personally wrote and ran scripts for scraping images using Selenium Webdriver</li>
-      <li>Used Unix terminal to access and run code on the school’s super computer</li>
-      <li>Converted code meant for a single image into code that runs on millions of images</li>
-   </ul>
-
-   Project Intern
-
-   WhamAds, Provo, UT ∙ January 2019 - April 2019
-   <ul>
-     <li>Member of an intern project that analyzed the company and identified flaws in the business model</li>
-     <li>As the Company Liaison I relayed these challenges and established communication that developed and implemented ideas to improve the company</li>
-     <li>Worked with the backend-software developers to improve the user interface of the company’s website</li>
-     <li>During the project we were able to take their website from less than 10 ads to over 1500</li>
-   </ul>
-</div>
-
-   <h3>PERSONAL PROJECTS</h3>
-
-<div>
-   Reddit Bot
-   <ul>
-     <li>Created a Python Script that registers whenever a post is made on a given subreddit and comments an appropriate response.</li>
-   </ul>
- </div>
-
-
-</article></a>
 
 <a id="about">
   <section id="photos" class="fwh.slide">
@@ -2361,10 +773,10 @@ footer li a {
     </div>
 </section></a>
 
-<! <footer>
+<!-- <footer>
   <li><a href="#     ">Back to Top</a></li>
 </footer> -->
 
-<!-- </div> -->
-<!-- </body>
-</html> -->
+</div>
+</body>
+</html>
