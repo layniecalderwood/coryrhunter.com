@@ -14,6 +14,20 @@ body {
   margin: 0;
 }
 
+@keyframes fadein {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+span p {
+  animation-duration: 5s;
+  animation-name: fadein;
+}
+
 header body { font: 400 1em/1.5 "Neuton"; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
 
 header p {
@@ -225,11 +239,9 @@ footer li a {
 <div id="wrapper">
 
 <a id="    "><header>
-  <body>
     <span><p>
       Cory Hunter
     </span></p>
-</body>
 </header></a>
 
 <nav>
