@@ -98,10 +98,9 @@ header p {
   height: auto;
 }
 
-/* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
-  width: 100%;
+  width: 50%;
 }
 
 .image {
@@ -110,7 +109,6 @@ header p {
   height: auto;
 }
 
-/* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
   position: absolute;
   top: 0;
@@ -120,7 +118,7 @@ header p {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .3s ease;
+  transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -134,9 +132,9 @@ header p {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-10%, -10%);
-  -ms-transform: translate(-10%, -10%);
-  transform: translate(-10%, -10%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
