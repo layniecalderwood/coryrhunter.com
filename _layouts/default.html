@@ -2,15 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <style>
+
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Neuton", Times, serif;
-  margin: 0;
 }
 
 h1 {
@@ -135,6 +130,11 @@ header h1 {
   height: auto;
 }
 
+.slim {
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -197,8 +197,8 @@ header {
   height: 700px;
 }
 
-nav ul {
-  list-style-type: none;
+/* nav ul { */
+  /* list-style-type: none;
   padding: 0;
   background-color: #606264;
   overflow: hidden;
@@ -209,24 +209,24 @@ nav {
   width: 100%;
   z-index: 1;
   position: -webkit-sticky; /* Safari */
-  position: sticky;
+  /* position: sticky;
   top: 0;
-}
+} */
 
-nav li{
+/* nav li{
   float: left;
-}
+} */
 
 /* Style the list inside the menu */
-nav ul li a {
+/* nav ul li a {
   display: block;
   text-decoration: none;
   text-align:center;
   padding: 14px 16px;
   color: white;
-}
+} */
 
-nav ul li a:hover:not(.active) {
+/* nav ul li a:hover:not(.active) {
   background-color: #55585C;
 }
 
@@ -240,7 +240,7 @@ nav li:last-child {
 
 .active:hover {
   background-color: #1B4C7B;
-}
+}  */
 
 
 article {
@@ -293,8 +293,9 @@ article {
   </p>
 </section></a> -->
 
-<a id="Resume"><article>
 
+<a id="Resume"><article>
+<div class="slim">
   <h2>RESUME</h2>
 
   <h3>EDUCATION</h3>
@@ -361,11 +362,13 @@ Applied and Computational Mathematics with an emphasis in Financial Markets, Eco
   Reddit Bot
      Created a Python Script that registers whenever a post is made on a given subreddit and comments an appropriate response.
 
+</div>
 </article></a>
+
 
 <a id="about">
   <section id="photos" class="fwh.slide">
-
+<div class="slim">
   <div class="container">
     <div class="box">
         <img src="/img/Cory/mission.jpg" alt="Naperville, Illinois" height="200" width="200">
@@ -473,11 +476,13 @@ Applied and Computational Mathematics with an emphasis in Financial Markets, Eco
   </div>
 </div>
 </div>
+</div>
 
-   </section>
-</a>
+</section></a>
+
 
 <a id="contact"><section class="fwh-slide fwh-slide--bg-grey">
+    <div class="slim">
     <div class="row">
     <div class="column">
       <a href="tel:5599745374"><img border="0" alt="Call" src="/img/phone.png" width="100" height="100"></a>
@@ -490,6 +495,7 @@ Applied and Computational Mathematics with an emphasis in Financial Markets, Eco
     </div>
     <div class="column">
       <a href="https://github.com/CoryHunter" target="_blank"><img border="0" alt="git" src="/img/github.png" width="100" height="100"></a>
+    </div>
     </div>
     </div>
 </section></a>
