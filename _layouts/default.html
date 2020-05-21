@@ -99,16 +99,6 @@ header h1 {
   padding-left: 115px;
 }
 
-.col-4-md {
-  float: left;
-  width: 40%;
-}
-
-.col-8-md {
-  float: right;
-  width: 60%;
-}
-
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -271,6 +261,7 @@ article {
 
 </style>
 </head>
+
 <body>
 
   <header>
@@ -304,13 +295,13 @@ article {
   <br>
 
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-4" style="float: left; width: 40%;">
 			<h4>Brigham Young University</h4>
 			<p class="experience-period">
 				August 2018			-
 				April 2021		</p>
 		</div>
-    <div class="col-md-8">
+    <div class="col-md-8" style="float: right; width: 60%;">
         <strong>Bachelor of Science</strong>
   				<p class="experience-period">
   					Applied and Computational Mathematics with an emphasis in Financial Markets, Economics. Member of the Society for Industrial and Applied Mathematics and Mathematical Finance club. Relevant Coursework: Econometrics, Algorithm Design and Optimization, Mathematical Analysis, Price Theory 1, Intermediate Macroeconomics, Statistics for Economists, Multivariable Calculus, Linear Algebra, Intro to C++. Proficient in Python. Experience with C++, Matlab, LaTeX, Git, Clojure, Clojure Script, React, AWS.				</p>
