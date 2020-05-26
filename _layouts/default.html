@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Cory Hunter </title>
+
+  <title> Cory Hunter </title>
+
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Neuton' type='text/css' />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
 	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-</head>
 
 <style>
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,10 +19,9 @@
 
 h1 {
   font-family: "Neuton", Times: serif;
-  font-size: 70px;
+  font-size: 75px;
   text-align: center;
-  font-weight: 200;
-  margin-left: 10px;
+  font-weight: 100;
 }
 
 h2 {
@@ -34,12 +35,14 @@ h2 {
 }
 
 h3 {
-  font-family: "Open-Sans-Condensed", Arial, sans-serif;
+  font-family: "Neuton", Times, serif;
   text-align: left;
   font-size: 40px;
   color: #4879A9;
   margin-top: 20px;
   font-weight: 10;
+  text-transform: uppercase;
+  letter-spacing: .3em;
 }
 
 h4 {
@@ -60,9 +63,18 @@ p {
   font-family: "Open-Sans-Condensed", Arial, sans-serif;
   font-size: 16px;
   color: black;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 5;
+  letter-spacing: .05em;
+}
+
+.skills {
+  font-family: "Open-Sans-Condensed", Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 5;
+  letter-spacing: .1em;
 }
 
 @keyframes fadein {
@@ -79,6 +91,7 @@ p {
     font-family: "Open-Sans", Arial, sans-serif;
     font-size: 16px;
     margin-left: 3px;
+    letter-spacing: .1em;
 }
 
 span h1 {
@@ -86,23 +99,23 @@ span h1 {
   animation-name: fadein;
 }
 
-header body {
+/* header body {
   font: 400 1em/1.5 "Neuton";
   color: rgba(255,255,255,.25);
   text-align: center;
   margin: 0
-}
+} */
 
 header h1 {
 	text-transform: uppercase;
 	letter-spacing: .8em;
 	display: inline-block;
 	padding: 1.5em 0em;
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
-	width: 40em;
-	margin: 0 0 0 -20em;
+	max-width: 40em;
+	margin: 0 0 0 -12.1em;
 }
 
 .fwh-slide {
@@ -146,6 +159,13 @@ header h1 {
   margin: 0;
 }
 
+#photos p {
+  text-align: center;
+  padding: 40px 20px 0;
+  color: white;
+  line-height: 19px;
+}
+
 .slim {
   margin-left: 150px;
   margin-right: 150px;
@@ -180,9 +200,9 @@ header h1 {
 }
 
 .text {
-  font-family: "Open-Sans-Condensed", Arial, sans-serif;
+  font-family: "Neuton", Times, serif;
   color: white;
-  font-size: 20px;
+  font-size: 2em;
   position: relative;
   top: 10%;
   left: 50%;
@@ -190,6 +210,10 @@ header h1 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 30px;
+  padding: 40px 20px 0;
 }
 
 header {
@@ -203,10 +227,10 @@ header {
   background-size: cover;
   position: relative;
   padding: 150px;
-  margin-left: 3px;
   text-align: center;
   font-size: 60px;
   color: white;
+  width: 100%;
   height: 700px;
   font-family: "Neuton", Times, serif;
 }
@@ -219,6 +243,7 @@ article {
 }
 
 </style>
+</head>
 
 <body>
 
@@ -226,18 +251,33 @@ article {
       <span><h1>  Cory Hunter</h1></span>
   </header>
 
+<!-- <nav>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#resume">Resume</a></li>
+  <li><a href="#about">About</a></li>
+  <li style="float:right"><a class="active" href="#contact">Contact</a></li>
+</ul>
+</nav> -->
+
+<!-- <a id="home"><section class="fwh-slide">
+  <p> Home page
+  </p>
+</section></a> -->
+
+
 <a id="Resume"><article>
 <div class="slim">
   <h2>RESUME</h2>
   <br>
   <br>
-  <p class="lead" style="text-align: center; letter-spacing: .1em;"> "Pure logical thinking cannot yield us any knowledge of the emperical world; all knowledge of reality from experience and ends in it."
-    <br>
-    <br>
-    -Albert Einstein </p>
-    <br>
-    <hr>
-    <br>
+  <p class="lead" style="text-align: center; letter-spacing: .1em;"> "Pure logical thinking cannot yield us any knowledge of the emperical world. All knowledge of reality starts from experience and ends in it."
+  <br>
+  <br>
+  -Albert Einstein </p>
+  <br>
+  <hr>
+  <br>
 
   <h3>Education</h3>
   <br>
@@ -245,14 +285,14 @@ article {
 	<div class="row">
 		<div class="col-md-4" style="float: left; width: 40%;">
 			<h4>Brigham Young University</h4>
-			<p class="experience-period">
-				August 2018			-
-				April 2021		</p>
+			   <p class="experience-period">
+				       August 2018			-
+				       April 2021		</p>
 		</div>
     <div class="col-md-8" style="float: right; width: 60%;">
         <strong>Bachelor(s) of Science: Applied Math, Economics</strong>
   				<p class="experience-period">
-            I am a member of the Society for Industrial and Applied Mathematics and Mathematical Finance club. My relevant coursework includes Econometrics, Algorithm Design and Optimization, Mathematical Analysis, Price Theory 1, Intermediate Macroeconomics, Statistics for Economists, Multivariable Calculus, Linear Algebra, and Intro to C++. I am proficient in Python and I have experience with C++, Matlab, LaTeX, Git, Clojure, Clojure Script, React, AWS.				</p>
+            I am a member of the Society for Industrial and Applied Mathematics and the Mathematical Finance club. My relevant coursework includes Econometrics, Algorithm Design and Optimization, Mathematical Analysis, Price Theory 1, Intermediate Macroeconomics, Statistics for Economists, Multivariable Calculus, Linear Algebra.				</p>
             <div class="experience-details">
 					         <div class="location">
 						               <i class="fas fa-map-marker-alt"></i>        Provo, UT 				</div>
@@ -377,14 +417,84 @@ article {
 </div>
 
   <!-- <h3>PERSONAL PROJECTS</h3>
+
   Reddit Bot
      Created a Python Script that registers whenever a post is made on a given subreddit and comments an appropriate response. -->
 
 </div>
 </article></a>
 
-<a id="about">
+<article style="background-color: white; height: 600px;">
+  <div class="slim">
+    <br>
+    <br>
+    <h2>SKILLS</h2>
+    <br>
+    <br>
+    <p class="lead" style="text-align: center; letter-spacing: .1em;"> "I am always doing that which I cannot do, in order that I may learn how to do it."
+    <br>
+    <br>
+    -Pablo Picasso </p>
+    <br>
+    <hr>
+    <br>
+    <br>
 
+  <div class="col-md-8" style="float: left; width: 45%;">
+    <ul style="list-style-type: none;">
+      <li>
+        <span class="skills">Python</span><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i>
+      </li>
+
+      <br>
+
+      <li>
+        <span class="skills">Clojure/Clojure Script</span><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i>
+      </li>
+
+      <br>
+
+      <li>
+        <span class="skills">Bloomberg Terminal</span><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i>
+      </li>
+
+      <br>
+
+      <li>
+        <span class="skills">React</span><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i>
+      </li>
+
+    </ul>
+  </div>
+
+<div class="col-md-8" style="float: right; width: 45%;">
+    <ul style="list-style-type: none;">
+      <li>
+        <span class="skills">LaTeX</span><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i>
+      </li>
+
+      <br>
+
+      <li>
+        <span class="skills">C++</span><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i>
+      </li>
+
+      <br>
+
+      <li>
+        <span class="skills">MatLab</span><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #A5ACB2; float: right;"></i><i class="fas fa-star" style="color: #4879A9; float: right;"></i>
+      </li>
+
+    </ul>
+</div>
+
+</div>
+</article>
+
+
+
+<a id="about">
+<article>
 <div class="slim">
   <br>
   <br>
@@ -410,8 +520,9 @@ article {
   <div class="container">
     <div class="box">
         <img src="/img/Cory/mission.jpg" alt="Naperville, Illinois" height="200" width="200">
-        <div class="overlay">
-          <div class="text">East Dundee, IL</div>
+    <div class="overlay">
+      <h3 class="text">East Dundee, IL</h3>
+      <p>I served a two-year (2016-2018) mission near Chicago, Illinois for the Church of Jesus Christ of Latter-day Saints. I took time off of college and had limited contact with friends and family so I could dedicate myself to teaching others about my faith in Jesus Christ.</p>
     </div>
   </div>
 </div>
@@ -419,106 +530,120 @@ article {
 <div class="container">
   <div class="box">
         <img src="/img/Cory/costarica.jpg" alt="Costa Rica" height="200" width="200">
-        <div class="overlay">
-          <div class="text">La Fortuna, Costa Rica</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">La Fortuna, Costa Rica</h3>
+    <p>I have recently come down with a severe case of the travel bug. During Thanksgiving break 2019, I was able to take my mom on a trip to Costa Rica. We spent time in the jungle, on the beach, and in the mountains.</p>
   </div>
+</div>
 </div>
 
 <div class="container">
   <div class="box">
         <img src="/img/Cory/timp.jpg" alt="Timp" height="200" width="200">
-        <div class="overlay">
-          <div class="text">Mt. Timpanogos</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">Mt. Timpanogos</h3>
+    <p>I love being outdoors and hiking has been one of my favorite hobbies since I was young. I'll spend a lot of my summers finding new trails to climb. My next goal is to climb Mount Whitney.</p>
   </div>
+</div>
 </div>
 
 <div class="container">
   <div class="box">
         <img src="/img/Cory/rugby.jpg" alt="Utah Valley University" height="200" width="200">
-        <div class="overlay">
-          <div class="text">Utah Valley University</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">Utah Valley University</h3>
+    <p>I started playing rugby in my sophomore year of high school. I was lucky enough to get to play on a collegiate level at Utah Valley University before serving my mission. I still miss rugby everyday and try to find opportunities to play in independent tournaments.</p>
   </div>
+</div>
 </div>
 
 <div class="container">
   <div class="box">
         <img src="/img/Cory/chincoteague.jpg" alt="Chincoteague, Virginia" height="200" width="200">
-        <div class="overlay">
-          <div class="text">Chincoteague, VA</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">Chincoteague, VA</h3>
+    <p>Being from California, it's typical of me to find the beach wherever I go. I spent a few months in Virginia and loved exploring the Chesapeake Bay area.</p>
   </div>
+</div>
 </div>
 
 <div class="container">
   <div class="box">
         <img src="/img/Cory/snowboarding.jpg" alt="Sundance, Utah" height="200" width="200">
-        <div class="overlay">
-          <div class="text">Sundance, UT</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">Sundance, UT</h3>
+    <p>I grew up snowboarding at a small resort near my home in Fresno, CA. It's been so fun to go to school in Utah, surrounded by so many great ski resorts. I spend almost all my weekends in the wintertime snowboarding up at Sundance resort.</p>
   </div>
+</div>
 </div>
 
 <div class="container">
   <div class="box">
         <img src="/img/Cory/golfing.jpg" alt="Dulles, Virginia" height="200" width="200">
-        <div class="overlay">
-          <div class="text">Dulles, VA</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">Dulles, VA</h3>
+    <p>I competitively golfed for 3 years. Now, I love to spend time at driving ranges keeping my skills sharp. I am always up for a round of 18 holes!</p>
   </div>
+</div>
 </div>
 
 <div class="container">
   <div class="box">
         <img src="/img/Cory/arches.jpg" alt="Moab, Utah" height="200" width="200">
-        <div class="overlay">
-          <div class="text">Moab, UT</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">Arches National Park, UT</h3>
+    <p>Living in Utah has provided lots of opportunities for exploring. Home to five national parks, living here has helped me towards my goal of going to all 62 US National Parks.</p>
   </div>
 </div>
-
-<div class="container">
-  <div class="box">
-        <img src="/img/Cory/iceland.jpg" alt="Reynisfjara, Iceland" height="200" width="200">
-        <div class="overlay">
-          <div class="text">Svinafellsjokull, Iceland</div>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="box">
-        <img src="/img/Cory/aftonfishing.jpg" alt="Afton, Wyoming" height="200.1" width="200">
-        <div class="overlay">
-          <div class="text">Afton, WY</div>
-    </div>
-  </div>
 </div>
 
 <div class="container">
   <div class="box">
         <img src="/img/Cory/glacier.jpg" alt="Glacier National Park" height="200.1" width="200">
-        <div class="overlay">
-          <div class="text">Glacier National Park</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">Glacier National Park, MT</h3>
+    <p>I like to spend the summertime outdoors. During summer 2019, I was lucky enough to do a bit of travelling that took me to Glacier National Park in Montana. I got to hike and fish (two of my favorite things) and get a little closer to my national park goal!</p>
   </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="box">
+        <img src="/img/Cory/iceland.jpg" alt="Reynisfjara, Iceland" height="200" width="200">
+  <div class="overlay">
+    <h3 class="text">Svinafellsjokull, Iceland</h3>
+    <p>In my summer 2019 travels, I got to spend a week in Iceland. I went with my brother and his family and we got to see a lot of beautiful scenery as well as hike around and try a lot of interesting foods. It was a great experience as my first time out of the country.</p>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="box">
+        <img src="/img/Cory/aftonfishing.jpg" alt="Afton, Wyoming" height="200.1" width="200">
+  <div class="overlay">
+    <h3 class="text">Afton, WY</h3>
+    <p>I absolutely love to fish. I spent almost all of my free time during my freshman year of college fishing. I really want to catch an Arctic Grayling one day.</p>
+  </div>
+</div>
 </div>
 
 <div class="container">
   <div class="box">
         <img src="/img/Cory/washingtondc.jpg" alt="Washington, District of Columbia" height="200.1" width="200">
-        <div class="overlay">
-          <div class="text">Washington, DC</div>
-    </div>
+  <div class="overlay">
+    <h3 class="text">Washington, DC</h3>
+    <p>I got to spend a significant amount of time during my internship at Evident Systems exploring Washington DC. I will always be partial to the west coast, but the east coast certainly has its charm.</p>
   </div>
 </div>
+</div>
+
 <br>
 <br>
 <br>
-<br>
-</section></a>
+
+</section>
+</article>
+</a>
 
 
 <a id="contact"><section class="fwh-slide fwh-slide--bg-grey">
@@ -544,6 +669,7 @@ article {
     <div class="column" style="padding:0; text-align: center;">
         <a href="tel:5599745374"><i class="fas fa-mobile-alt fa-5x" style="color: white;"></i></a>
     </div>
+
 
     <div class="column" style="padding:0; text-align: center;">
       <a href="mailto:coryhunter.byu@gmail.com" target="_blank"><i class="fas fa-envelope fa-5x" style="color: white;"></i>
