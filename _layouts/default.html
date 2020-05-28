@@ -234,10 +234,11 @@ header h1 {
   opacity: 1;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.5);
+  display: block;
 }
 
-span .overlay-header:hover {
-  opacity: 0;
+span:hover + .overlay-header {
+  display: none
 }
 
 .text {
