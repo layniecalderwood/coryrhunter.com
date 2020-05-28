@@ -220,6 +220,23 @@ header h1 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.header-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-overlay:hover {
+  opacity: 0;
+}
+
 .container:hover .overlay {
   opacity: 1;
 }
@@ -242,10 +259,11 @@ header h1 {
 }
 
 header {
-  background: linear-gradient(
+  /* background: linear-gradient(
     rgba(0, 0, 0, 0.38),
     rgba(0, 0, 0, 0.38)),
-    url(/img/Cory/header5.jpg);
+    url(/img/Cory/header5.jpg); */
+  background-image: url(/img/Cory/header5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -290,8 +308,10 @@ article {
 <body>
 
   <header>
+    <div class="header-overlay">
       <h1 style="font-size: 6vw;">Cory Hunter</h1>
       <div class="header-location"><i class="fas fa-map-marker-alt fa-xs"></i></div>
+    </div>
   </header>
 
 <a id="Resume"><article>
