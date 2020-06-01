@@ -231,7 +231,7 @@ header h1 {
   opacity: 1;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.5);
-  display: block;
+  display: none;
 }
 
 /* .header-overlay:hover {
@@ -278,22 +278,19 @@ header {
   font-family: "Neuton", Times, serif;
 }
 
-/* .header-location {
-  float: right;
-  display: inline-block;
-  padding-right: 10px;
-  font-size: 2vw;
-} */
-
-.fa-map-marker-alt {
+.header-location {
   float: right;
   display: inline-block;
   padding-right: 10px;
   font-size: 2vw;
 }
 
-span:hover + .header-overlay {
-  display: none;
+.fa-map-marker-alt:hover {
+  color: black;
+}
+
+.fa-map-marker-alt:hover + .header-overlay {
+  opacity: 0;
 }
 
 article {
@@ -311,7 +308,7 @@ article {
   <header>
     <div class="header-overlay">
       <h1 style="font-size: 6vw;">Cory Hunter</h1>
-      <span><div class="header-location"><i class="fas fa-map-marker-alt fa-xs"></i></div></span>
+      <div class="header-location"><i class="fas fa-map-marker-alt fa-xs"></i></div>
     </div>
   </header>
 
