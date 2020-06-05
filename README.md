@@ -1,2 +1,0 @@
-# coryrhunter.com
-# coryrhunter.com
