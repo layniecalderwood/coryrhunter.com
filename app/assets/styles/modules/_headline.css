@@ -1,0 +1,26 @@
+.headline {
+    font-weight: 300;
+    font-size: 1.9rem;
+    color: $mainBlue;
+    letter-spacing: 1rem;
+    padding-top: 50px;
+
+    @mixin atSmall {
+        font-size: 3.5rem;
+    }
+
+    &--centered {
+        text-align: center;
+    }
+
+    &--left-small {
+        text-align: left;
+        letter-spacing: .2rem;
+        font-size: 2.5rem;
+        padding-top: 40px;
+        padding-bottom: 5px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+}
+

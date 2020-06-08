@@ -3,8 +3,14 @@ html {
 }
 
 body {
+    font-family: 'Open-Sans', sans-serif;
+    color: black;
+    font-weight: 100;
+    letter-spacing: .01rem;
+}
+
+h1, h2, h3 {
     font-family: 'Neuton', serif;
-    color: #333;
 }
 
 img {
