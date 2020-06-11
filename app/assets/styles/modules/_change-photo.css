@@ -1,0 +1,14 @@
+.change-photo {
+
+    @mixin atMedium {
+        display: none;
+    }
+
+    &__grid {
+        display: none;
+
+        @mixin atMedium {
+            display: block;
+        }
+    }
+}

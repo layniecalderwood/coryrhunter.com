@@ -11,3 +11,8 @@
 @import 'modules/_column';
 @import 'modules/_experience-block';
 @import 'modules/_skills';
+@import 'modules/_photo-grid';
+@import 'modules/_contact';
+@import 'modules/_w3';
+@import 'modules/_change-photo';
+@import 'modules/_slideshow';

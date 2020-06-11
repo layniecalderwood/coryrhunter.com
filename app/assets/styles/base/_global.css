@@ -23,3 +23,9 @@ img {
     margin: 0;
     padding: 0;
   }
+
+hr {
+    height: 1px;
+    background-color: #A5ACB2;
+    border: none;
+}

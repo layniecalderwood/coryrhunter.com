@@ -1,0 +1,59 @@
+.photo-grid {
+
+  @mixin atMedium{
+    padding-top: 60px;
+    margin: 0;
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+    column-count: 3;
+    column-gap: 0px;
+    margin: 0;
+      
+      &--img {
+        width: 100%;
+        height: auto;
+        margin: 0;   
+      }
+
+      &__container {
+            position: relative;
+            width: 100%;
+      }
+
+      &__overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      &__overlay:hover {
+          opacity: 1;
+      }
+
+      &__header {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        padding: 60px 0 20px 0;
+      }
+
+      &__text {
+        text-align: center;
+        padding: 1vw 1vw 0;
+        color: white;
+        line-height: 19px;
+      }
+    }
+      
+      
+}

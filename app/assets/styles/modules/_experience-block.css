@@ -1,39 +1,81 @@
 .experience-block {
 
     &--place {
-        padding-top: 30px;
-        padding-bottom: 10px;
-        padding-left: 45px;
-        font-size: 1.2rem;
+        padding-top: 0;
+        font-size: 1.5rem;
         color: black;
         letter-spacing: 0;
         font-weight: 700;
+        text-align: center;
+
+        @mixin atMedium {
+            padding-top: 15px;
+            text-align: left;
+            font-size: 1.2rem;
+        }
     }
 
     &--time {
-        font-weight: 100;
-        letter-spacing: .01rem;
-        padding-left: 45px;
+        font-size: 1rem;
+        text-align: center;
+
+        @mixin atMedium { 
+            font-weight: 100;
+            letter-spacing: .01rem;
+            font-size: 1rem;
+            text-align: left;
+        }
     }
 
     &--description-header {
-        padding-top: 30px;
-        padding-bottom: 5px;
-        font-size: 1.2rem;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-size: 1rem;
         color: black;
         letter-spacing: 0;
-        font-weight: 700;
+        font-weight: 600;
+        text-align: center;
+
+        @mixin atMedium {
+            padding-top: 15px;
+            padding-bottom: 0;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: left;
+        }
+    }
+
+    &--description {
+        font-size: 1rem;
+
+        @mixin atSmall {
+            font-size: 1rem;
+        }
     }
 
     &--location {
         padding-top: 10px;
         font-weight: 500;
         color: $mainBlue;
+        text-align: center;
+        font-size: 1rem;
+
+        @mixin atMedium {
+            text-align: left;
+            font-size: 1rem;
+        }
     }
 
     &__icon {
         color: $mainBlue;
         padding-right: 2px;
         font-weight: 700;
+        text-align: center;
+        font-size: 1rem;
+
+        @mixin atMedium {
+            text-align: left;
+            font-size: 1rem;
+        }
     }
 }

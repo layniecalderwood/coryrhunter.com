@@ -1,8 +1,39 @@
 .wrapper {
     overflow: hidden;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 18px;
+    padding-right: 18px;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+
+    
+    @mixin atMedium {
+        overflow: hidden;
+        padding-left: 150px;
+        padding-right: 150px;
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &--wide {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    &--super-skinny {
+        padding: 30px 170px 30px 170px;
+
+        @mixin atMedium {
+            display: none;
+        }
+    }
+
+    &--skinny-until-medium {
+        padding: 0 70px 0 70px;
+
+        @mixin atMedium {
+            padding: 0 150px 0 150px;
+        }
+    }
 }

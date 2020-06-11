@@ -1,11 +1,18 @@
 .section-quote {
     text-align: center;  
     padding-top: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
+
+    @mixin atMedium {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 
     &--author {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    &--grey {
+        color: #A5ACB2;
     }
 }
