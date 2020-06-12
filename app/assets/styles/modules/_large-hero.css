@@ -1,9 +1,15 @@
 .large-hero {
     background-image: url(assets/img/Cory/header5.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     height: 651px;
+    background-size: cover;
+    
+    
+    @mixin atMedium{
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 651px;
+    }
     
     &__text-content {
         position: absolute;

@@ -31,4 +31,9 @@
     color: $mainBlue;
 }
 
+.w3-display-container {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 
