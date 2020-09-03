@@ -10,7 +10,7 @@
 
         @mixin atMedium {
             padding-top: 15px;
-            text-align: left;
+            text-align: left!important;
             font-size: 1.2rem;
         }
     }
@@ -23,7 +23,7 @@
             font-weight: 100;
             letter-spacing: .01rem;
             font-size: 1rem;
-            text-align: left;
+            text-align: left!important;
         }
     }
 
@@ -41,7 +41,7 @@
             padding-bottom: 0;
             font-size: 1.2rem;
             font-weight: 700;
-            text-align: left;
+            text-align: left!important;
         }
     }
 
@@ -51,6 +51,7 @@
 
         @mixin atSmall {
             font-size: 1rem;
+            text-align: left!important;
         }
     }
 
@@ -62,7 +63,7 @@
         font-size: 1rem;
 
         @mixin atMedium {
-            text-align: left;
+            text-align: left!important;
             font-size: 1rem;
         }
     }
@@ -75,7 +76,7 @@
         font-size: 1rem;
 
         @mixin atMedium {
-            text-align: left;
+            text-align: left!important;
             font-size: 1rem;
         }
     }
