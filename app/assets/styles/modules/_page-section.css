@@ -2,12 +2,12 @@
     padding: 1.5rem;
     padding-bottom: 4rem;
     background-color: #f1f1f1;
+}
 
-    &--white {
-        background-color: white;
-    }
+.page-section--white {
+    background-color: white;
+}
 
-    &--grey {
-        background-color: #636A71;
-    }
+.page-section--grey {
+    background-color: #636A71;
 }

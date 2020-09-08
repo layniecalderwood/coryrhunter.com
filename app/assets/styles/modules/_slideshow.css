@@ -3,17 +3,17 @@
     height: 500px;
     position: relative;
     padding-top: 30px;
+}
 
-        &__header {
-            color: white;
-            text-align: center;
-            font-size: 2rem;
-        }
+.slideshow__header {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
 
-        &__text {
-            text-align: left;
-            color: white;
-            line-height: 19px;
-            font-size: 1rem;
-        }
+.slideshow __text {
+    text-align: left;
+    color: white;
+    line-height: 19px;
+    font-size: 1rem;
 }

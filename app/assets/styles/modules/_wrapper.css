@@ -7,7 +7,7 @@
     margin-left: auto;
 
     
-    @mixin atMedium {
+    @media (min-width: 800px) {
         overflow: hidden;
         padding-left: 150px;
         padding-right: 150px;
@@ -15,25 +15,25 @@
         margin-right: auto;
         margin-left: auto;
     }
+}
 
-    &--wide {
-        padding-left: 70px;
-        padding-right: 70px;
+.wrapper--wide {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.wrapper--super-skinny {
+    padding: 30px 170px 30px 170px;
+
+    @media (min-width: 800px) {
+        display: none;
     }
+}
 
-    &--super-skinny {
-        padding: 30px 170px 30px 170px;
+.wrapper--skinny-until-medium {
+    padding: 0 70px 0 70px;
 
-        @mixin atMedium {
-            display: none;
-        }
-    }
-
-    &--skinny-until-medium {
-        padding: 0 70px 0 70px;
-
-        @mixin atMedium {
-            padding: 0 150px 0 150px;
-        }
+    @media (min-width: 800px) {
+        padding: 0 150px 0 150px;
     }
 }

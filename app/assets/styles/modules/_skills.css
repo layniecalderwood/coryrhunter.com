@@ -1,20 +1,17 @@
-.skills {
+.skills__icon {
+    color: #A5ACB2; 
+    float: right;
+}
 
-    &__icon {
-        color: #A5ACB2; 
-        float: right;
-    }
+.skills__icon--blue {
+    color: #4879A9; 
+    float: right;
+}
 
-    &__icon--blue {
-        color: #4879A9; 
-        float: right;
-    }
+ul {
+    list-style-type: none;
+}
 
-    ul {
-        list-style-type: none;
-    }
-
-    li {
-        padding-bottom: 15px;
-    }
+li {
+    padding-bottom: 15px;
 }

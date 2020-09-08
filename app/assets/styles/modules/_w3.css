@@ -5,11 +5,11 @@
 }
 
 .w3-left:hover {
-    color: $mainBlue;
+    color: #4879A9;
 }
 
 .w3-right:hover {
-    color: $mainBlue;
+    color: #4879A9;
 }
 
 .w3-badge {
@@ -28,7 +28,7 @@
 }
 
 .w3-button {
-    color: $mainBlue;
+    color: #4879A9;
 }
 
 .w3-display-container {

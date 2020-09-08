@@ -1,83 +1,80 @@
-.experience-block {
+.experience-block--place {
+    padding-top: 0;
+    font-size: 1.5rem;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-align: center;
 
-    &--place {
-        padding-top: 0;
-        font-size: 1.5rem;
-        color: black;
-        letter-spacing: 0;
+    @media (min-width: 800px) {
+        padding-top: 15px;
+        text-align: left!important;
+        font-size: 1.2rem;
+    }
+}
+
+.experience-block--time {
+    font-size: 1rem;
+    text-align: center;
+
+    @media (min-width: 800px) { 
+        font-weight: 100;
+        letter-spacing: .01rem;
+        font-size: 1rem;
+        text-align: left!important;
+    }
+}
+
+.experience-block--description-header {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 600;
+    text-align: center;
+
+    @media (min-width: 800px) {
+        padding-top: 15px;
+        padding-bottom: 0;
+        font-size: 1.2rem;
         font-weight: 700;
-        text-align: center;
-
-        @mixin atMedium {
-            padding-top: 15px;
-            text-align: left!important;
-            font-size: 1.2rem;
-        }
+        text-align: left!important;
     }
+}
 
-    &--time {
+.experience-block--description {
+    font-size: 1rem;
+    text-align: center;
+
+    @media (min-width: 800px) {
         font-size: 1rem;
-        text-align: center;
-
-        @mixin atMedium { 
-            font-weight: 100;
-            letter-spacing: .01rem;
-            font-size: 1rem;
-            text-align: left!important;
-        }
+        text-align: left!important;
     }
+}
 
-    &--description-header {
-        padding-top: 5px;
-        padding-bottom: 10px;
+.experience-block--location {
+    padding-top: 10px;
+    font-weight: 500;
+    color: #4879A9;
+    text-align: center;
+    font-size: 1rem;
+
+    @media (min-width: 800px) {
+        text-align: left!important;
         font-size: 1rem;
-        color: black;
-        letter-spacing: 0;
-        font-weight: 600;
-        text-align: center;
-
-        @mixin atMedium {
-            padding-top: 15px;
-            padding-bottom: 0;
-            font-size: 1.2rem;
-            font-weight: 700;
-            text-align: left!important;
-        }
     }
+}
 
-    &--description {
+.experience-block__icon {
+    color: #4879A9;
+    padding-right: 2px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+
+    @media (min-width: 800px) {
+        text-align: left!important;
         font-size: 1rem;
-        text-align: center;
-
-        @mixin atSmall {
-            font-size: 1rem;
-            text-align: left!important;
-        }
-    }
-
-    &--location {
-        padding-top: 10px;
-        font-weight: 500;
-        color: $mainBlue;
-        text-align: center;
-        font-size: 1rem;
-
-        @mixin atMedium {
-            text-align: left!important;
-            font-size: 1rem;
-        }
-    }
-
-    &__icon {
-        color: $mainBlue;
-        padding-right: 2px;
-        font-weight: 700;
-        text-align: center;
-        font-size: 1rem;
-
-        @mixin atMedium {
-            text-align: left!important;
-            font-size: 1rem;
-        }
     }
 }

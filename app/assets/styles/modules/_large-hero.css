@@ -2,50 +2,55 @@
     background-image: url(assets/img/Cory/header5.jpg);
     height: 651px;
     background-size: cover;
-    
-    
-    @mixin atMedium{
+}
+       
+.large-hero {
+    @media (min-width: 800px) { 
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
         height: 700px;
     }
+}
     
-    &__text-content {
-        position: absolute;
-        top: 75%;
-        transform: translateY(-50%);
-        width: 100%;
-        left: 0;
-        text-align: center;
-    }
+.large-hero__text-content {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
 
-    &__title {
-        font-weight: 100;
-        color: white;
-        font-size: 4rem;
-        letter-spacing: 2rem;
-        margin-left: 3rem;
-        animation-duration: 6s;
-        animation-name: fadein;
+.large-hero__title {
+    font-weight: 100;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    margin-left: 3rem;
+    animation-duration: 6s;
+    animation-name: fadein;
+}
 
-        @mixin atMedium {
-            font-size: 4.7rem;
-            letter-spacing: 3.5rem;
-        }
-    }
-
-    &__overlay {
-        position: relative;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
+.large-hero__title {
+    @media (min-width: 800px) {
+        font-size: 4.7rem;
+        letter-spacing: 3.5rem;
     }
 }
+    
+
+.large-hero__overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 @keyframes fadein {
     0% {
